@@ -4,7 +4,7 @@ public class Dogs extends Animals {
     private static int DOGS_COUNT;
 
     public Dogs(String name) {
-        ANIMALS_COUNT++;
+        Animals.setAnimalsCount();
         DOGS_COUNT++;
         this.name = name;
         this.maxDistanceOfRun = 500;

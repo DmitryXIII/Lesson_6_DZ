@@ -1,7 +1,7 @@
 package xiii.geekbrains.lesson_6;
 
 public abstract class Animals {
-    protected static int ANIMALS_COUNT;
+    private static int ANIMALS_COUNT;
     protected String name;
     protected int maxDistanceOfRun;
     protected int maxDistanceOfSwim;
@@ -25,5 +25,9 @@ public abstract class Animals {
 
     public static int getAnimalsCount() {
         return ANIMALS_COUNT;
+    }
+
+    public static void setAnimalsCount() {
+        ANIMALS_COUNT++;
     }
 }

@@ -22,6 +22,5 @@ public class Lesson_6_DZ {
         cat1.run(300);
         dog2.swim(7);
         cat1.swim(2);
-
     }
 }
